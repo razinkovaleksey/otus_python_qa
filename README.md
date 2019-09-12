@@ -1,12 +1,11 @@
-1) 
-# create venv
+ # create venv
 python -m venv env
 
 # activate venv
+env/Scripst/activate
 
-2) pip install -r requirements.txt
+#install requirements
+pip install -r requirements.txt
 
-3) 
-#run tests 
-
+#run tests
 pytest
